@@ -1,5 +1,5 @@
 <?php
-    $conn=new mysqli("localhost","root","","iwtdb");
+    $conn=new mysqli("localhost","root","","crud");
     if($conn->connect_error){
         die("Connection error".$conn->connect_error);
 

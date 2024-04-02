@@ -7,7 +7,7 @@
     <title>add user</title>
 </head>
 <body>
-    <form action="">
+    <form action="function.php" method="POST" enctype="multipart/form-data">
         Name :
         <input type="text" name="name" required><br>
         Image :
